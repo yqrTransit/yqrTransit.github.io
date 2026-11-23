@@ -118,7 +118,13 @@ a:hover {
 a img {
 	border: none;
 }
-
+table {
+	table-layout:fixed;
+	width:100%;
+}
+td{
+	overflow-wrap: break-word;
+}
 img,
 svg,
 video,
